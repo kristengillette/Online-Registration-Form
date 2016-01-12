@@ -106,6 +106,7 @@ input[type=radio]:checked {
   text-align: right;
 }
 
+
 select {
   padding: 6px;
   height: 50px;
@@ -182,11 +183,11 @@ input[type=radio] {
 
 input[type=radio]:checked + label:before {
   content: "\2022";
-  color: #2d3945;
+  color: #46698b;
   font-size: 30px;
   text-align: center;
-  line-height: 18px;
-  border: 2px solid #2d3945;
+  line-height: 15px;
+  border: 2px solid #46698b;
 }
 
 input[type=checkbox] {
@@ -200,11 +201,11 @@ input[type=checkbox] {
 input[type=checkbox]:checked + label:before {
   content: "\2713";
   font-family: arial;
-  font-size: 20px;
-  color: #2d3945;
+  font-size: 16px;
+  color: #46698b;
   text-align: center;
   line-height: 15px;
-  border: 2px solid #2d3945;
+  border: 2px solid #46698b;
 }
 
 
